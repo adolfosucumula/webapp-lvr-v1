@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import {Link} from 'react-router-dom';
 import axios from 'axios';
 
-class Tablecontact extends Component{
+class Worker extends Component{
 
     constructor(props){
         super(props);
@@ -72,4 +72,4 @@ class Tablecontact extends Component{
         );
     }
 }
-export default Tablecontact;
+export default Worker;

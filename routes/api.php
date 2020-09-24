@@ -25,3 +25,9 @@ Route::post('/contact/create','ContactsController@create');
 Route::get('/contact/{id}/edit','ContactsController@edit');
 Route::put('/contact/{id}/update','ContactsController@update');
 Route::delete('/contact/{id}/delete','ContactsController@delete');
+
+Route::get('/workers','WorkerController@index');
+Route::post('/workers','WorkerController@index');
+Route::get('/workers','WorkerController@index');
+Route::put('/workers','WorkerController@index');
+Route::delete('/workers','WorkerController@index');

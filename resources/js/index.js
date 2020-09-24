@@ -20,6 +20,6 @@ function Index() {
 
 export default Index;
 
-if (document.getElementById('example')) {
-    ReactDOM.render(<Index />, document.getElementById('example'));
+if (document.getElementById('content')) {
+    ReactDOM.render(<Index />, document.getElementById('content'));
 }
